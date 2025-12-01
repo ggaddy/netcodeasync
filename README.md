@@ -1,6 +1,6 @@
 # NetCodeAsync
 
-NetCodeAsync is a network automation framework designed for asynchronous interaction with network devices. It leverages Python's `asyncio` to handle multiple device connections and operations concurrently.
+NetCodeAsync is a network automation framework designed for asynchronous interaction with network devices. It leverages Python's `asyncio` and `scrapli` to handle multiple device connections and operations concurrently.
 
 ## HTTP Server
 
@@ -39,3 +39,4 @@ The project includes an HTTP API server (`http_server.py`) that provides a RESTf
 
 - [ ] Persistent inventory via SQLite
 - [ ] Applying device configs (with concurrency locking for devices being configured)
+- [ ] Delete device from inventory
