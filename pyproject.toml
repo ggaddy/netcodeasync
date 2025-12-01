@@ -1,0 +1,12 @@
+[project]
+name = "netcodeasync"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "scrapli[asyncssh]>=2025.1.30",
+    "scrapli-community>=2025.1.30",
+    "py-spy>=0.4.1",
+    "aiohttp>=3.13.2",
+]

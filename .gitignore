@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# demo file
+demo.py
+demo.md
+
+# profiling graphics
+profile.svg
+
+# server logs
+server.log
