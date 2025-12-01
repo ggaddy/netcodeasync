@@ -19,7 +19,7 @@ The project includes an HTTP API server (`http_server.py`) that provides a RESTf
 
 2.  **Add a Device**:
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{
+    curl -X PUT -H "Content-Type: application/json" -d '{
         "platform": "mikrotik_ros",
         "host": "192.168.0.1",
         "user": "admin",
@@ -29,7 +29,7 @@ The project includes an HTTP API server (`http_server.py`) that provides a RESTf
 
 3.  **Run a Command**:
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{
+    curl -X PUT -H "Content-Type: application/json" -d '{
         "host": "192.168.0.1",
         "command": "/system identity print"
     }' http://localhost:8080/command
